@@ -11,7 +11,7 @@ with open('random_forest_personality_model.pkl', 'rb') as file:
 # Items that must be flipped based on the IPIP codebook properties
 REVERSE_QUESTIONS = ['OPN2', 'CSN2', 'EXT2', 'EXT4', 'AGR1', 'EST2']
 
-# ⚠️ MAKE SURE THIS LIST LOOKS EXACTLY LIKE THIS IN YOUR APP.PY ⚠️
+#  MAKE SURE THIS LIST LOOKS EXACTLY LIKE THIS IN YOUR APP.PY 
 FEATURE_NAMES = [
     'OPN1', 'OPN2', 'OPN3',
     'CSN1', 'CSN2', 'CSN5',
